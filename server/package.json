@@ -12,7 +12,7 @@
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
-    "start:topWorkplaces": "npm run start:topWorkplaces:ts",
+    "start:topWorkplaces": "npm run start:topWorkplaces:js",
     "start:topWorkplaces:ts": "ts-node src/scripts/top-workplaces.ts",
     "start:topWorkplaces:js": "node src/scripts/top-workplaces.js",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
